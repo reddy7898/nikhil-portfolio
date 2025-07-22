@@ -1,7 +1,7 @@
 import React from "react";
 import { MdOutlineEmail } from "react-icons/md";
 import { CiLinkedin } from "react-icons/ci";
-import { FaGithub } from "react-icons/fa";
+import { FaGithub ,FaGlobe} from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -44,6 +44,17 @@ const Footer = () => {
       className="hover:underline"
     >
       github.com/reddy7898
+    </a>
+  </li>
+  <li className="flex gap-2 items-center">
+    <FaGlobe size={20} />
+    <a
+      href="https://reddy7898.github.io/nikhil-portfolio/"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="hover:underline"
+    >
+      nikhil-duluri
     </a>
   </li>
 </ul>
