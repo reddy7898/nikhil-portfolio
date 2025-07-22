@@ -3,7 +3,7 @@ import TextChange from "../TextChange";
 
 const Home = () => {
   return (
-    <div className="text-white flex flex-col-reverse md:flex-row justify-between items-center px-6 md:px-20 py-10 md:py-20 bg-gradient-to-br from-black via-gray-900 to-green-950 relative overflow-hidden">
+    <div id="Home" className="text-white flex flex-col-reverse md:flex-row justify-between items-center px-6 md:px-20 py-10 md:py-20 bg-gradient-to-br from-black via-gray-900 to-green-950 relative overflow-hidden">
       <div className="md:w-2/4 text-center md:text-left z-10">
         <h1 className="text-3xl md:text-6xl font-bold leading-tight tracking-tighter mb-4">
           <TextChange />

@@ -1,4 +1,4 @@
-import { FaJs, FaReact } from "react-icons/fa";
+import { FaJs, FaReact, FaHtml5 } from "react-icons/fa";
 import { SiPhp, SiLaravel, SiTailwindcss, SiMysql ,SiRedis, SiMongodb} from "react-icons/si";
 import { FaBuilding } from "react-icons/fa";
 import { TbBuildingSkyscraper } from "react-icons/tb";
@@ -15,7 +15,7 @@ const Experience = () => {
           <span className="p-3 bg-zinc-950 flex items-center rounded-2xl"><FaJs color="#F7DF1E" size={50} /></span>
           <span className="p-3 bg-zinc-950 flex items-center rounded-2xl"><SiMongodb color="#F24E1E" size={50} /></span>
           <span className="p-3 bg-zinc-950 flex items-center rounded-2xl"><SiTailwindcss color="#47A248" size={50} /></span>
-          <span className="p-3 bg-zinc-950 flex items-center rounded-2xl"><SiRedis color="#FF4438" size={50} /></span>
+          <span className="p-3 bg-zinc-950 flex items-center rounded-2xl"><FaHtml5 color="#FF4438" size={50} /></span>
           <span className="p-3 bg-zinc-950 flex items-center rounded-2xl"><SiMysql color="#336791" size={50} /></span>
         </div>
 

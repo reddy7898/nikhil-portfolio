@@ -5,7 +5,7 @@ const ProjectCard = ({ title, main, image, link, tech }) => {
   return (
     <div className="p-3 md:p-6 flex flex-col w-80 bg-[#0c0e19] shadow-xl shadow-slate-900 rounded-2xl">
       <img
-        className="p-4 w-full h-48 object-cover rounded-xl"
+        className="p-4 w-full h-20 object-cover rounded-xl"
         src={image || bannerImg}
         alt={title}
       />
