@@ -1,5 +1,4 @@
 import avatarImg from "../../assets/portfolio-image.png";
-import Footer from "../Footer/Footer";
 import TextChange from "../TextChange";
 
 const Home = () => {
@@ -17,7 +16,7 @@ const Home = () => {
         </p>
         <button
         onClick={() => {
-        document.getElementById("footer")?.scrollIntoView({ behavior: "smooth" });
+        document.getElementById("Footer")?.scrollIntoView({ behavior: "smooth" });
         }}
         className="mt-6 bg-green-500 text-black px-6 py-2 rounded-full font-semibold shadow hover:bg-green-400 hover:scale-105 transition duration-300"
         >
