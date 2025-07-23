@@ -16,31 +16,30 @@ const Navbar = () => {
       </a>
 
       <ul
-        className={`${
-          menuOpen ? "block" : "hidden"
-        } absolute top-full left-0 right-0 bg-black bg-opacity-90 text-center px-6 py-4 md:static md:flex md:gap-6 md:bg-transparent md:py-0 md:px-0 md:block`}
+  className={`${
+    menuOpen ? "block" : "hidden"
+  } absolute top-full left-0 right-0 bg-black bg-opacity-90 text-center px-6 py-4 md:static md:flex md:gap-6 md:bg-transparent md:py-0 md:px-0 md:block`}
+>
+  {[
+    { href: "#About", label: "About" },
+    { href: "#Experience", label: "Experience" },
+    { href: "#Projects", label: "Projects" },
+    { href: "#Footer", label: "Contact" }
+  ].map((item) => (
+    <li key={item.label}>
+      <a
+        href={item.href}
+        onClick={() => {
+          setMenuOpen(false);
+        }}
+        className="block py-2 md:py-0 hover:text-green-400"
       >
-        <li>
-          <a href="#About" className="block py-2 md:py-0 hover:text-green-400">
-            About
-          </a>
-        </li>
-        <li>
-          <a href="#Experience" className="block py-2 md:py-0 hover:text-green-400">
-            Experience
-          </a>
-        </li>
-        <li>
-          <a href="#Projects" className="block py-2 md:py-0 hover:text-green-400">
-            Projects
-          </a>
-        </li>
-        <li>
-          <a href="#Footer" className="block py-2 md:py-0 hover:text-green-400">
-            Contact
-          </a>
-        </li>
-      </ul>
+        {item.label}
+      </a>
+    </li>
+  ))}
+</ul>
+
 
       {/* Toggle Button for Mobile */}
       <div className="md:hidden z-50">
