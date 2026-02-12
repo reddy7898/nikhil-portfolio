@@ -21,7 +21,7 @@ const Footer = () => {
   <li className="flex gap-2 items-center">
     <MdOutlineEmail size={20} />
     <a href="mailto:nikhil.duluri@gmail.com" className="hover:underline">
-      nikhil.duluri@gmail.com
+      nikhilduluri@gmail.com
     </a>
   </li>
   <li className="flex gap-2 items-center">
